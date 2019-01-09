@@ -709,7 +709,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.k-lpmg.RealmWrapper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -743,7 +743,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.k-lpmg.RealmWrapper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -770,6 +770,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "k-lpmg.RealmWrapperTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -795,6 +796,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "k-lpmg.RealmWrapperTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
