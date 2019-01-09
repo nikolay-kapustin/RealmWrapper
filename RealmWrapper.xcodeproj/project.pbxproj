@@ -711,6 +711,7 @@
 					"@loader_path/Frameworks",
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.k-lpmg.RealmWrapper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -745,6 +746,7 @@
 					"@loader_path/Frameworks",
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.k-lpmg.RealmWrapper";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -772,6 +774,7 @@
 					"@loader_path/Frameworks",
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "k-lpmg.RealmWrapperTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -798,6 +801,7 @@
 					"@loader_path/Frameworks",
 					"$(FRAMEWORK_SEARCH_PATHS)",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "k-lpmg.RealmWrapperTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
