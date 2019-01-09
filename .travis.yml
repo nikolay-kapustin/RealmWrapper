@@ -20,7 +20,7 @@ before_script:
   - set -o pipefail
 
 script:
-    - travis_retry xcodebuild clean build test
+    - xcodebuild clean build test
       -project "$PROJECT"
       -scheme "$SCHEME"
       -sdk "$SDK"
