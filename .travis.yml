@@ -1,5 +1,5 @@
-osx_image: xcode10.0
-language: objective-c
+osx_image: xcode10
+language: swift
 env:
   global:
     - PROJECT="RealmWrapper.xcodeproj"
